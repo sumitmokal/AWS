@@ -4,8 +4,6 @@ resource "aws_instance" "aws-cloud-automation-meetup-ec2" {
 
   key_name = "cfn-key-1"
 
-  vpc_security_group_ids = [aws_security_group.aws-cloud-automation-meetup-sg.id  ]
-
   user_data = file("install.sh")
 
   tags = {
