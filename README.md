@@ -1,4 +1,4 @@
-# aws-cloud-automation
+# aws-cloud-automation-meetup
 
 ## Getting started
 
@@ -7,7 +7,7 @@ To code along with this demo, you'll need to:
 * you'll need to setup ssh on Github so that you can push changes to Github
 * download PyCharm CE and install the Terraform plugin, this is so that you can have Terraform auto-complete, not required, but good to have.
 * clone this repo so that you can have the example locally.
-* Join my Slack organization to see the Terraform Slack notificatons:
+* Join my Slack organization to see the Terraform Slack notificatons:  https://join.slack.com/t/f1kart/shared_invite/zt-d4e9o5qv-nrRD0C5Fcfq2sddyzw6_Fg
 
 ## Technologies 
 * Amazon Web Services(AWS)
