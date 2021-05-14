@@ -1,7 +1,7 @@
 resource "aws_security_group" "aws-cloud-automation-meetup-sg" {
   name = "aws-cloud-automation-meetup-sg"
   description = "allow ssh incomming"
-  vpc_id = "vpc-bb9f3bc0"
+  vpc_id = "vpc-837debe8"
 
   ingress {
     from_port = 22
