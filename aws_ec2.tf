@@ -1,5 +1,5 @@
 resource "aws_security_group" "aws-cloud-automation-meetup-sg" {
-  name = "aws-cloud-automation-meetup-sg"
+  name = "AWS"
   description = "allow ssh incomming"
   vpc_id = "vpc-837debe8"
 
@@ -28,12 +28,12 @@ resource "aws_security_group" "aws-cloud-automation-meetup-sg" {
   }
 
   tags = {
-    Owner = "terraform-aws-cloud-automation-meetup"
+    Owner = "terraform-aws-cloud-automation"
     Project = "aws-cloud-automation-meetup"
   }
 }
 
-resource "aws_instance" "aws-cloud-automation-meetup-ec2" {
+resource "aws_instance" "aws-cloud-automation-ec2" {
   ami = "ami-0a887e401f7654935"
   instance_type = "t2.micro"
 
